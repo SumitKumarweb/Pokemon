@@ -1,4 +1,3 @@
-import PokemonList from '../PokemonList/PokemonList';
 import './Search.css'
 
 function Search(){
@@ -8,7 +7,6 @@ function Search(){
             type="text"
             placeholder="Enter your Pokemon"
             />
-            <PokemonList/>
         </div>
     )
 }

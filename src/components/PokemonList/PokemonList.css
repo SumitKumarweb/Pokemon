@@ -1,24 +1,29 @@
 .wrapper-pokemonList{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 40px;
+   display: flex;
+   flex-wrap: wrap;
 }
 .Pokemon-card > img {
     object-fit: cover;
     height: 100px;
 }
-.Pokemon-card{
-    /* background: #000; */
-    width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.loading{
+    text-align: center;
 }
-.cardInfo{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 30px;
+.controls{
+    text-align: center;
+    margin: 20px 0px;
+}
+.controls > button {
+    padding: 20px 50px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #000000;
+    border: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.controls > button:disabled{
+    background-color: rgb(107, 107, 107);
 }

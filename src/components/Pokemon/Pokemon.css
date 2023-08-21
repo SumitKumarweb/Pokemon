@@ -1,0 +1,18 @@
+.Pokemon-card{
+    text-align: center;
+    width:300px;
+}
+.Pokemon-card > img {
+    height: 80px;
+}
+.cardInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.cardInfo > span {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px 0px;
+}

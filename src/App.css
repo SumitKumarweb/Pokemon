@@ -2,3 +2,9 @@
   padding: 0%;
   margin: 0%;
 }
+body{
+  height: 100%;
+  background-image: url('./background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
