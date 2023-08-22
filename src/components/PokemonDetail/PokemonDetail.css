@@ -1,0 +1,14 @@
+.pokemonDetail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokemonDetail-container > h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+.pokemonDetail-container > h1::first-letter{
+    text-transform: uppercase;
+}
+

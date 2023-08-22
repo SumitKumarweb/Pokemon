@@ -1,11 +1,11 @@
 import Search from "../search/Search";
 import './Pokedex.css'
+import PokemonList from '../PokemonList/PokemonList'
 function Pokedex(){
  return (
-    <div className="pokedex-wrapper">
-        <h1>Pokedex.com</h1>
-        <Search/>
-    </div>
+    <>
+    <PokemonList/>
+    </>
  )   
 }
 export default Pokedex;

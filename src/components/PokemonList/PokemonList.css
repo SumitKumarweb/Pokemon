@@ -1,6 +1,7 @@
 .wrapper-pokemonList{
    display: flex;
    flex-wrap: wrap;
+   justify-content: center;
 }
 .Pokemon-card > img {
     object-fit: cover;

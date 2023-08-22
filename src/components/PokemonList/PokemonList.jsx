@@ -51,6 +51,7 @@ function PokemonList() {
               name={p.name}
               image={p.image}
               type={p.type}
+              id={p.id}
             />
           ))}
       </div>
